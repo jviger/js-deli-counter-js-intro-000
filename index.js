@@ -12,7 +12,7 @@ function nowServing(katzDeliLine){
   } else {
   var next = katzDeliLine[0];
   katzDeliLine.shift();
-  return `Currently serving ${next}`;
+  return `Currently serving ${next}.`;
   }
 
 }
